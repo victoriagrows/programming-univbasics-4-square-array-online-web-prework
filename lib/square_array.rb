@@ -1,7 +1,7 @@
 numbers = [1 ,2 ,3]
 counter = 0
 
-while numbers < 1000 do
+while counter < 1000 do
   square_array
   counter += 1
 end
