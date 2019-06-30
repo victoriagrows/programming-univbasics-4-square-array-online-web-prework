@@ -1,5 +1,5 @@
 numbers = [1 ,2 ,3]
-
+counter = 0
 while numbers < 1000 do
   square_array
   numbers
