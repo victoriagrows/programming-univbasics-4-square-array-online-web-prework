@@ -1,12 +1,10 @@
-numbers = [1 ,2 ,3]
-counter = 0
-
 def square_array(numbers)
- numbers ** 2
-end
-
-while counter < 10 do
-  square_array
-  counter += 1
+  counter = 0
+  arr_length = numbers.length
+  while counter < arr_length do
+    counter += 1
+    numbers[counter] ** 2
+  end
+  numbers
 end
 
